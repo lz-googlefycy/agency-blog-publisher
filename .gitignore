@@ -1,0 +1,55 @@
+# Logs
+*.log
+logs/
+
+# Local config
+.env
+.env.local
+*.local
+
+# Tokens / secrets — NEVER commit
+WECHATSYNC_TOKEN
+*.token
+secrets/
+.tokens
+
+# Cookies
+cookies.json
+cookies/
+biliup-cookies.json
+*-cookies.json
+
+# Build artifacts
+node_modules/
+dist/
+build/
+*.crx
+*.zip
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Generated
+output/
+*.draft.md
+
+# Compiled binaries (users build their own)
+bin/xiaohongshu-mcp
+bin/xiaohongshu-login
+bin/biliup
+xhs-mcp-src/
+
+# User-specific local docs (template at docs/USAGE.md, but users may have local copies)
+docs/USAGE.local.md
+docs/MY-*.md

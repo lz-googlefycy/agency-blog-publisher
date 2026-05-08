@@ -1,0 +1,18 @@
+{
+  "_comment": "Example fragment for ~/.config/opencode/opencode.json — merge into the existing 'mcp' section. See docs/SETUP.md.",
+  "mcp": {
+    "wechatsync": {
+      "enabled": true,
+      "type": "local",
+      "command": [
+        "node",
+        "${HOME}/tools/Wechatsync/packages/mcp-server/dist/index.js"
+      ],
+      "environment": {
+        "MCP_TOKEN": "<paste your Wechatsync token here>",
+        "WECHATSYNC_BRIDGE_URL": "ws://localhost:9527"
+      },
+      "timeout": 60000
+    }
+  }
+}
